@@ -1,0 +1,52 @@
+# Ignore node_modules directory
+/node_modules
+
+# log directory
+/logs/
+
+# Ignore logs
+*.log
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore user environment files
+.env
+
+# Ignore dependency directories
+/jspm_packages/
+/bower_components/
+
+# Ignore production build output
+/build
+/dist
+
+# Ignore coverage output
+/coverage
+
+# Ignore .vscode directory if using Visual Studio Code
+.vscode/
+
+# Ignore IDE-specific project files
+.idea/
+*.iml
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+*.idea/inspectionProfiles
+*.idea/.name
+*.idea/.gitignore
+*.idea/.idea_modules
+*.idea/.externalDependencies
+*.idea/*.iml
+*.ipr
+
+# Ignore yarn error log
+yarn-error.log

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mocha": "10.4.0",
+    "moment-timezone": "^0.5.45",
+    "selenium-webdriver": "^4.21.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "scripts": {
+    "timein": "babel-node time-in-script.spec.js",
+    "timeout": "babel-node time-out-script.spec.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6"
+  }
+}
